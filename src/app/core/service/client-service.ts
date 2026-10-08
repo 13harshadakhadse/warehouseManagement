@@ -1,4 +1,4 @@
-import { inject, Injectable, Service } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { API_Response } from '../models/interface/common.model';
 import { HttpClient } from '@angular/common/http';
@@ -6,7 +6,7 @@ import { environment } from '../../../environments/environment';
 import { GLOBAL_CONSTANTS } from '../constants/global.constant';
 import { ClientModel } from '../models/clsses/client.model';
 
-@Service()
+
 
 @Injectable({
     providedIn: 'root'
