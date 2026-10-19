@@ -3,3 +3,13 @@ export interface API_Response {
     result: boolean;
     data: any;
 }
+export interface IUser {
+  userId: number
+  emailId: string
+  password: string
+  createdDate: string
+  projectName: string
+  fullName: string
+  mobileNo: string
+  extraId: any
+}

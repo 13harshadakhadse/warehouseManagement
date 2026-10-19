@@ -2,7 +2,8 @@ export const GLOBAL_CONSTANTS = {
 
     API_METHODS:{
         GET_ALL_CLIENT: 'GetAllClients',
-        SAVE_CLIENT : 'AddClient'
+        SAVE_CLIENT : 'AddClient',
+        LOGIN : 'login'
     },
     REG_EX:{
         EMAIL:'',
@@ -12,6 +13,7 @@ export const GLOBAL_CONSTANTS = {
         REQUIRED:'This field is required',
         EMAIL:'Please enter valid email',
         ADHAR_CARD:'Please enter valid adhar card number',
-    }
+    },
+    LOCAL_STORAGE_KEYS: 'warehouseUser'
 
 }
